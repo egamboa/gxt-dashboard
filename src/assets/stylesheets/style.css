@@ -923,3 +923,11 @@ a.pagination-item:hover {
   background-color: #8f5536; }
 .theme-base-0f .container a, .theme-base-0f .sidebar-toggle, .theme-base-0f .related-posts li a:hover {
   color: #8f5536; }
+
+.module {
+  border: 1px solid #ccc;
+  margin: 15px;
+  padding: 15px; }
+
+.release p {
+  color: red; }
