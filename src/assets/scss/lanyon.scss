@@ -39,7 +39,7 @@ html, body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
  * regular page content.
  */
 
-.wrap {
+ .wrap {
   position: relative;
   width: 100%;
 }
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
-.container {
+ .container {
   max-width: 28rem;
 }
 
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
  * Super small header above the content for site name and short description.
  */
 
-.masthead {
+ .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
@@ -277,7 +277,7 @@ a.sidebar-nav-item {
  * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
  */
 
-.wrap, .sidebar, .sidebar-toggle {
+ .wrap, .sidebar, .sidebar-toggle {
   -webkit-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -308,7 +308,7 @@ a.sidebar-nav-item {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.page, .post {
+ .page, .post {
   margin-bottom: 4em;
 }
 
@@ -374,7 +374,7 @@ a.sidebar-nav-item {
  * there are no more previous or next posts to show.
  */
 
-.pagination {
+ .pagination {
   overflow: hidden;
   /* clearfix */
   margin-left: -1rem;
@@ -428,7 +428,7 @@ a.pagination-item:hover {
  * on the right side.
  */
 
-.layout-reverse {
+ .layout-reverse {
   .sidebar {
     left: auto;
     right: -14rem;
