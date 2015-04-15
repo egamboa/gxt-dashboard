@@ -33,7 +33,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-* {
+ * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -45,7 +45,7 @@ html, body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -244,7 +244,7 @@ tbody tr:nth-child(odd) {
  * Extend paragraphs with `.lead` for larger introductory text.
  */
 
-.lead {
+ .lead {
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -256,7 +256,7 @@ tbody tr:nth-child(odd) {
  * or to a parent if there are multiple elements to show.
  */
 
-.message {
+ .message {
   margin-bottom: 1rem;
   padding: 1rem;
   color: #717171;
@@ -269,7 +269,7 @@ tbody tr:nth-child(odd) {
  * Center the page content.
  */
 
-.container {
+ .container {
   max-width: 38rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -283,7 +283,7 @@ tbody tr:nth-child(odd) {
  * Super small header above the content for site name and short description.
  */
 
-.masthead {
+ .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
@@ -311,7 +311,7 @@ tbody tr:nth-child(odd) {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.page, .post {
+ .page, .post {
   margin-bottom: 4em;
 }
 
@@ -377,7 +377,7 @@ tbody tr:nth-child(odd) {
  * there are no more previous or next posts to show.
  */
 
-.pagination {
+ .pagination {
   overflow: hidden;
   /* clearfix */
   margin-left: -1rem;
