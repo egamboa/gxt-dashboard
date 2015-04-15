@@ -4,27 +4,17 @@ title: Home
 ---
 
 <div class="main">
-  <div class="module release">
-    <h2>Releases</h2>
-  </div>
-  <div class="module events">
-    <h2>Events</h2>
-  </div>
-  <div class="module quick-links">
-    <h2>Quick Links</h2>
-  </div>
-  <div class="module distro-list">
-    <h2>Distribution Lists</h2>
-  </div>
-  <div class="module team">
-    <h2>TEAMS</h2>
-    <div class="team jax">
-      <h3>JAX</h3>
-    </div>
-    <div class="team cr">
-      <h3>CR</h3>
-    </div>
-  </div>
+
+  {% include releases.html %}
+
+  {% include events.html %}
+  
+  {% include quickLinks.html %}
+
+  {% include distributionList.html %}
+  
+  {% include teams.html %}
+  
 </div>
 
 <!--<div class="posts">
