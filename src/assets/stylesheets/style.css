@@ -928,7 +928,9 @@ a.pagination-item:hover {
   border: 1px solid #ccc;
   margin: 15px;
   padding: 15px;
-  background: url("assets/images/bg-tiny-stripes.png"); }
+  background: url("assets/images/bg-tiny-stripes.png");
+  width: 100%;
+  float: left; }
   .module h2 {
     font-size: 25px;
     line-height: 23px;
@@ -965,3 +967,23 @@ a.pagination-item:hover {
 .masthead-title img {
   float: left;
   height: 55px; }
+
+/*styles for the Quick Links module*/
+.quick-links div {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto; }
+.quick-links ul {
+  float: left;
+  width: 100%;
+  list-style: none; }
+.quick-links li {
+  width: 33%;
+  float: left;
+  text-align: center; }
+.quick-links a {
+  color: #036f83;
+  text-decoration: none;
+  font-size: 0.9em; }
+.quick-links a:hover {
+  color: #024151; }
