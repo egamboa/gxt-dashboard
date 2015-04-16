@@ -42,6 +42,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #e8e8e8;
 }
 
 html {
@@ -58,7 +59,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #fff;
+  background-color: #e8e8e8;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -422,4 +423,9 @@ a.pagination-item:hover {
       border-bottom-right-radius: 4px;
     }
   }
+}
+
+.main{
+  float: left;
+  background-color: white;
 }
