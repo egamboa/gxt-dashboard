@@ -1,20 +1,27 @@
+
+
+
 .module{
-	
+
 	margin: 15px 0;
-	padding: 15px;
+	padding: 5px 70px;
 	background-image: url("/assets/images/bg-tiny-stripes.png");
 	background-repeat: repeat;
-
-
 	width: 100%;
 	float: left;
 
-	h2{
-		font-size: 25px;
-		line-height: 23px;
-		margin-bottom: 14px;
-		color: #5a6c78;
 
+	h2{
+		color: rgb(90, 108, 120);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 24px;
+		font-weight: normal;
+		height: 60px;
+		line-height: 30px;
+		margin: 15px 0 20px 0;
+		padding: 0;
+		visibility: visible;
+		width: 290px;
 	}
 
 	h3{
@@ -22,5 +29,12 @@
 		color: #363836;
 	}
 }
+
+@media (max-width: 555px) {
+	.module{
+		padding: 10px;
+	}
+}
+
 
 

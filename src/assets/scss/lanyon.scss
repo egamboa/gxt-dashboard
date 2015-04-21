@@ -43,7 +43,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Arial,Helvetica,sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
  .container {
-  max-width: 28rem;
+  max-width: 48rem;
 }
 
 @media (min-width: 38rem) {
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 56rem) {
   .container {
-    max-width: 38rem;
+    max-width: 48rem;
   }
 }
 
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
  .masthead {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   border-bottom: 1px solid #eee;
 }
 
