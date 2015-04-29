@@ -1015,6 +1015,8 @@ a.pagination-item:hover {
   float: left; }
 
 .person {
+  -webkit-transition: background-color 0.4;
+  transition: background-color 0.4s;
   margin: 5px 15px;
   width: 162px;
   padding: 5px;
@@ -1041,9 +1043,15 @@ a.pagination-item:hover {
     margin: 0; }
   .person p {
     font-size: 0.6em;
-    margin: 10px 0; }
+    margin: 0;
+    margin-top: 10px; }
     .person p span {
       font-weight: bold; }
+    .person p textarea {
+      resize: none;
+      width: 100%;
+      border: none;
+      background-color: #e8eaec; }
 
 .person:hover {
   background-color: #a4aeb5; }
@@ -1058,4 +1066,63 @@ a.pagination-item:hover {
   p {
     font-size: 0.7em !important;
     position: relative;
-    left: 30px; } }
+    left: 30px; }
+    p textarea {
+      width: 85% !important; } }
+
+.eventsContainer {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px; }
+  .eventsContainer .event {
+    float: left;
+    width: 25%;
+    height: 70px;
+    position: relative;
+    background-color: red; }
+    .eventsContainer .event .inside {
+      -webkit-transition: background-color 1s, width 0.7s, height 0.4s, z-index 1s;
+      transition: background-color 1s, width 0.7s, height 0.4s, z-index 1s;
+      position: absolute;
+      padding: 0 5px;
+      border: 1px solid white;
+      width: 100%;
+      height: 70px;
+      background-color: #e8eaec;
+      z-index: 900; }
+      .eventsContainer .event .inside .date {
+        text-align: right;
+        font-size: 0.7em;
+        padding: 0;
+        margin: 0;
+        width: 100%; }
+      .eventsContainer .event .inside h3 {
+        font-size: 0.9em;
+        padding: 0;
+        margin: 0;
+        text-align: center; }
+      .eventsContainer .event .inside p {
+        -webkit-transition: visibility 0.3s, opacity 0.3s;
+        transition: visibility 0.3s, opacity 0.3s;
+        font-size: 0.6em;
+        visibility: hidden;
+        opacity: 0; }
+        .eventsContainer .event .inside p span {
+          font-weight: bold; }
+    .eventsContainer .event .inside:hover {
+      position: absolute;
+      background-color: #a4aeb5;
+      height: 140px;
+      width: 110%;
+      z-index: 999; }
+      .eventsContainer .event .inside:hover p {
+        -webkit-transition: visibility 1.1s, opacity 1.1s;
+        transition: visibility 1.1s, opacity 1.1s;
+        visibility: visible;
+        opacity: 1; }
+  @media (max-width: 555px) {
+    .eventsContainer .event {
+      width: 50%; }
+      .eventsContainer .event .inside p {
+        position: absolute;
+        left: 5px; } }
