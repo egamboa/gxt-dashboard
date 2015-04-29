@@ -1078,12 +1078,12 @@ a.pagination-item:hover {
     float: left;
     width: 25%;
     height: 70px;
-    position: relative;
-    background-color: red; }
+    position: relative; }
     .eventsContainer .event .inside {
-      -webkit-transition: background-color 1s, width 0.7s, height 0.4s, z-index 1s;
-      transition: background-color 1s, width 0.7s, height 0.4s, z-index 1s;
+      -webkit-transition: background-color 1s, width 0.7s, height 0.4s, z-index 1s, position 0.4s, position 0.4s, left 0.6s;
+      transition: background-color 1s, width 0.7s, height 0.4s, z-index 1s, position 0.4s, left 0.6s;
       position: absolute;
+      left: 0;
       padding: 0 5px;
       border: 1px solid white;
       width: 100%;
@@ -1111,6 +1111,7 @@ a.pagination-item:hover {
           font-weight: bold; }
     .eventsContainer .event .inside:hover {
       position: absolute;
+      left: -5%;
       background-color: #a4aeb5;
       height: 140px;
       width: 110%;
@@ -1124,5 +1125,10 @@ a.pagination-item:hover {
     .eventsContainer .event {
       width: 50%; }
       .eventsContainer .event .inside p {
+        font-size: 0.7em;
         position: absolute;
-        left: 5px; } }
+        left: 5px;
+        padding-left: 2px; }
+      .eventsContainer .event .inside:hover {
+        width: 100%;
+        left: 0; } }
