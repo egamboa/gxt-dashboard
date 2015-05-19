@@ -1132,3 +1132,20 @@ a.pagination-item:hover {
       .eventsContainer .event .inside:hover {
         width: 100%;
         left: 0; } }
+
+.distro-list .table {
+  font-size: 15px;
+  text-align: center;
+  border-spacing: 14px;
+  border: none; }
+  .distro-list .table tr th {
+    border: none;
+    background-color: transparent; }
+  .distro-list .table tr td {
+    background-color: transparent;
+    border-left: none;
+    border-right: none; }
+  .distro-list .table .alt td {
+    background-color: #e8eaec; }
+  .distro-list .table tr:hover td, .distro-list .table tr:focus td, .distro-list .table tr:active td {
+    background-color: #a4aeb5; }

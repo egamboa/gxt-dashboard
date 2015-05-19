@@ -1,0 +1,36 @@
+.distro-list{
+
+	.table{
+		font-size: 15px;
+		text-align: center;
+		border-spacing: 14px;
+		border: none;
+		tr{
+			th{
+				border: none;
+				background-color: transparent;
+			}
+			td{
+				background-color: transparent;
+				border-left: none;
+				border-right: none;
+
+			}
+
+			
+		}
+		.alt{
+			td{
+				background-color: #e8eaec;
+			}
+		}
+		tr:hover, tr:focus, tr:active{
+			td{
+				background-color: #a4aeb5;
+			}
+			
+		}
+	}
+
+
+}
