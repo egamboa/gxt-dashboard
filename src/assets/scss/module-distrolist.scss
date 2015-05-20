@@ -1,6 +1,7 @@
 .distro-list{
 
 	.table{
+
 		font-size: 15px;
 		text-align: center;
 		border-spacing: 14px;
@@ -11,6 +12,8 @@
 				background-color: transparent;
 			}
 			td{
+				-webkit-transition: background-color 0.3s, height 0.3s;
+				transition: background-color 0.3s, height 0.3s;
 				background-color: transparent;
 				border-left: none;
 				border-right: none;
@@ -27,8 +30,9 @@
 		tr:hover, tr:focus, tr:active{
 			td{
 				background-color: #a4aeb5;
-			}
-			
+				height: 60px;
+				//font-size: 17px;
+			}	
 		}
 	}
 

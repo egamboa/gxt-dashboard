@@ -1142,10 +1142,13 @@ a.pagination-item:hover {
     border: none;
     background-color: transparent; }
   .distro-list .table tr td {
+    -webkit-transition: background-color 0.3s, height 0.3s;
+    transition: background-color 0.3s, height 0.3s;
     background-color: transparent;
     border-left: none;
     border-right: none; }
   .distro-list .table .alt td {
     background-color: #e8eaec; }
   .distro-list .table tr:hover td, .distro-list .table tr:focus td, .distro-list .table tr:active td {
-    background-color: #a4aeb5; }
+    background-color: #a4aeb5;
+    height: 60px; }
