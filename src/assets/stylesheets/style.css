@@ -1006,6 +1006,9 @@ a.pagination-item:hover {
     background-color: #e8eaec; }
   .release table tr:hover td, .release table tr:hover th, .release table tr:focus td, .release table tr:focus th, .release table tr:active td, .release table tr:active th {
     background-color: #a4aeb5; }
+@media (max-width: 895px) {
+  .release p {
+    font-size: 16px; } }
 
 /*styles for the Quick Links module*/
 .quick-links div {
@@ -1193,7 +1196,8 @@ a.pagination-item:hover {
     .customStyle .slick-dots li button {
       background: #ccd5db;
       background-image: -webkit-linear-gradient(top, #ccd5db, #6e6e6e);
-      background-image: linear-gradient(to bottom, #ccd5db, #6e6e6e);
+      background-image: -webkit-linear-gradient(top bottom, #ccd5db, #6e6e6e);
+      background-image: linear-gradient(top bottom, #ccd5db, #6e6e6e);
       height: 10px;
       width: 10px;
       border-radius: 5px;
@@ -1202,10 +1206,11 @@ a.pagination-item:hover {
       margin-right: 10px; }
     .customStyle .slick-dots li button:focus {
       outline: none; }
-  .customStyle .slick-dots .slick-active button {
+  .customStyle .slick-dots .slick-active button, .customStyle .slick-dots .slick-active button:hover {
     background: #a7bfcc;
     background-image: -webkit-linear-gradient(top, #a7bfcc, #393d40);
-    background-image: linear-gradient(to bottom, #a7bfcc, #393d40); }
+    background-image: -webkit-linear-gradient(top bottom, #a7bfcc, #393d40);
+    background-image: linear-gradient(top bottom, #a7bfcc, #393d40); }
 .customStyle .slick-next {
   background: url("../images/rigth.png") no-repeat scroll 0 0 transparent;
   background-size: 30px;
@@ -1228,3 +1233,20 @@ a.pagination-item:hover {
   position: relative;
   top: -273px;
   left: 32%; }
+@media (max-width: 895px) {
+  .customStyle .slick-next, .customStyle .slick-prev {
+    background-size: 20px;
+    top: -260px; }
+  .customStyle .slick-next {
+    left: 56%; } }
+@media (max-width: 608px) {
+  .customStyle .slick-dots {
+    top: 0;
+    left: 40%; }
+    .customStyle .slick-dots button {
+      width: 5px !important;
+      height: 5px;
+      border-radius: 5px; } }
+@media (max-width: 555px) {
+  .customStyle p {
+    left: 0 !important; } }

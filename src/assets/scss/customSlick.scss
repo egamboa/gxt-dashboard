@@ -16,7 +16,7 @@
 				background-image: -moz-linear-gradient(top, #ccd5db, #6e6e6e);
 				background-image: -ms-linear-gradient(top, #ccd5db, #6e6e6e);
 				background-image: -o-linear-gradient(top, #ccd5db, #6e6e6e);
-				background-image: linear-gradient(to bottom, #ccd5db, #6e6e6e);
+				background-image: linear-gradient(top bottom, #ccd5db, #6e6e6e);
 				height: 10px;
 				width: 10px;
 				border-radius:5px;
@@ -34,13 +34,13 @@
 		}
 
 		.slick-active{
-			button{
+			button, button:hover{
 				background: #a7bfcc;
 				background-image: -webkit-linear-gradient(top, #a7bfcc, #393d40);
 				background-image: -moz-linear-gradient(top, #a7bfcc, #393d40);
 				background-image: -ms-linear-gradient(top, #a7bfcc, #393d40);
 				background-image: -o-linear-gradient(top, #a7bfcc, #393d40);
-				background-image: linear-gradient(to bottom, #a7bfcc, #393d40);
+				background-image: linear-gradient(top bottom, #a7bfcc, #393d40);
 			}
 		}
 	}
@@ -69,6 +69,36 @@
 		position: relative;
 		top: -273px;
 		left: 32%;
+	}
+
+	@media (max-width:895px) {
+		.slick-next, .slick-prev{
+			background-size: 20px;
+			top: -260px;
+		}
+
+		.slick-next {
+			left: 56%;
+		}
+
+	}
+
+	@media (max-width: 608px){
+		.slick-dots{
+			top:0; 
+			left: 40%;
+			button{
+				width: 5px!important;
+				height: 5px;
+				border-radius: 5px;
+			}
+		}
+	}
+
+	@media (max-width: 555px){
+		p{
+			left:0!important;
+		}
 	}
 
 }
