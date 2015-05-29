@@ -1,4 +1,44 @@
 .release{
 	p{
+		text-align: center;
+	}
+
+	table{
+		font-size: 15px;
+		text-align: center;
+		border-spacing: 14px;
+		border: none;
+		tr{
+			th{	
+				text-align: left;
+				background-color: transparent;
+			}
+
+			td, th{
+				-webkit-transition: background-color 0.3s, height 0.5s, font-size 0.5s;
+				transition: background-color 0.3s, height 0.5s, font-size 0.5s;
+				background-color: transparent;
+				border-left: none;
+				border-right: none;
+				height: 30px;
+				font-size: 14px;
+			}
+
+			
+		}
+		.alt{
+			td, th{
+				background-color: #e8eaec;
+			}
+		}
+		tr:hover, tr:focus, tr:active{
+			td, th{
+				background-color: #a4aeb5;	
+			}	
+		}
+
+
+
+		
 	}
 }

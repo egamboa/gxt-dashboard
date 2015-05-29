@@ -1,0 +1,74 @@
+.customStyle{
+	.slick-dots{	
+		position: relative;
+		top: -50px;
+		left: 46%; 	
+		list-style-type: none;
+		width: 100%;
+		padding-left: 0;
+		li{
+			display: inline-table;
+			height: 20px!important;
+			width: 20px!important;
+			button{
+				background: #ccd5db;
+				background-image: -webkit-linear-gradient(top, #ccd5db, #6e6e6e);
+				background-image: -moz-linear-gradient(top, #ccd5db, #6e6e6e);
+				background-image: -ms-linear-gradient(top, #ccd5db, #6e6e6e);
+				background-image: -o-linear-gradient(top, #ccd5db, #6e6e6e);
+				background-image: linear-gradient(to bottom, #ccd5db, #6e6e6e);
+				height: 10px;
+				width: 10px;
+				border-radius:5px;
+				border: none;
+				color: transparent;
+				margin-right: 10px;
+			}
+
+			button:focus{
+				outline: none;
+			}
+
+
+
+		}
+
+		.slick-active{
+			button{
+				background: #a7bfcc;
+				background-image: -webkit-linear-gradient(top, #a7bfcc, #393d40);
+				background-image: -moz-linear-gradient(top, #a7bfcc, #393d40);
+				background-image: -ms-linear-gradient(top, #a7bfcc, #393d40);
+				background-image: -o-linear-gradient(top, #a7bfcc, #393d40);
+				background-image: linear-gradient(to bottom, #a7bfcc, #393d40);
+			}
+		}
+	}
+
+	.slick-next{
+		background: url("../images/rigth.png") no-repeat scroll 0 0 transparent;
+		background-size: 30px;
+		width: 35px;
+		height:55px;
+		color: transparent;
+		border: none;
+		outline: none;
+		position: relative;
+		top: -273px;
+		left: 60%;
+	}
+
+	.slick-prev{
+		background: url("../images/left.png") no-repeat scroll 0 0 transparent;
+		background-size: 30px;
+		width: 35px;
+		height:55px;
+		color: transparent;
+		border: none;
+		outline: none;
+		position: relative;
+		top: -273px;
+		left: 32%;
+	}
+
+}

@@ -12,12 +12,13 @@
 				background-color: transparent;
 			}
 			td{
-				-webkit-transition: background-color 0.3s, height 0.3s;
-				transition: background-color 0.3s, height 0.3s;
+				-webkit-transition: background-color 0.3s, height 0.5s, font-size 0.5s;
+				transition: background-color 0.3s, height 0.5s, font-size 0.5s;
 				background-color: transparent;
 				border-left: none;
 				border-right: none;
-
+				height: 30px;
+				font-size: 14px;
 			}
 
 			
@@ -31,7 +32,7 @@
 			td{
 				background-color: #a4aeb5;
 				height: 60px;
-				//font-size: 17px;
+				font-size: 20px;
 			}	
 		}
 	}

@@ -984,6 +984,29 @@ a.pagination-item:hover {
   float: left;
   height: 55px; }
 
+.release p {
+  text-align: center; }
+.release table {
+  font-size: 15px;
+  text-align: center;
+  border-spacing: 14px;
+  border: none; }
+  .release table tr th {
+    text-align: left;
+    background-color: transparent; }
+  .release table tr td, .release table tr th {
+    -webkit-transition: background-color 0.3s, height 0.5s, font-size 0.5s;
+    transition: background-color 0.3s, height 0.5s, font-size 0.5s;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    font-size: 14px; }
+  .release table .alt td, .release table .alt th {
+    background-color: #e8eaec; }
+  .release table tr:hover td, .release table tr:hover th, .release table tr:focus td, .release table tr:focus th, .release table tr:active td, .release table tr:active th {
+    background-color: #a4aeb5; }
+
 /*styles for the Quick Links module*/
 .quick-links div {
   width: 100%;
@@ -1142,13 +1165,66 @@ a.pagination-item:hover {
     border: none;
     background-color: transparent; }
   .distro-list .table tr td {
-    -webkit-transition: background-color 0.3s, height 0.3s;
-    transition: background-color 0.3s, height 0.3s;
+    -webkit-transition: background-color 0.3s, height 0.5s, font-size 0.5s;
+    transition: background-color 0.3s, height 0.5s, font-size 0.5s;
     background-color: transparent;
     border-left: none;
-    border-right: none; }
+    border-right: none;
+    height: 30px;
+    font-size: 14px; }
   .distro-list .table .alt td {
     background-color: #e8eaec; }
   .distro-list .table tr:hover td, .distro-list .table tr:focus td, .distro-list .table tr:active td {
     background-color: #a4aeb5;
-    height: 60px; }
+    height: 60px;
+    font-size: 20px; }
+
+.customStyle .slick-dots {
+  position: relative;
+  top: -50px;
+  left: 46%;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0; }
+  .customStyle .slick-dots li {
+    display: inline-table;
+    height: 20px !important;
+    width: 20px !important; }
+    .customStyle .slick-dots li button {
+      background: #ccd5db;
+      background-image: -webkit-linear-gradient(top, #ccd5db, #6e6e6e);
+      background-image: linear-gradient(to bottom, #ccd5db, #6e6e6e);
+      height: 10px;
+      width: 10px;
+      border-radius: 5px;
+      border: none;
+      color: transparent;
+      margin-right: 10px; }
+    .customStyle .slick-dots li button:focus {
+      outline: none; }
+  .customStyle .slick-dots .slick-active button {
+    background: #a7bfcc;
+    background-image: -webkit-linear-gradient(top, #a7bfcc, #393d40);
+    background-image: linear-gradient(to bottom, #a7bfcc, #393d40); }
+.customStyle .slick-next {
+  background: url("../images/rigth.png") no-repeat scroll 0 0 transparent;
+  background-size: 30px;
+  width: 35px;
+  height: 55px;
+  color: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  top: -273px;
+  left: 60%; }
+.customStyle .slick-prev {
+  background: url("../images/left.png") no-repeat scroll 0 0 transparent;
+  background-size: 30px;
+  width: 35px;
+  height: 55px;
+  color: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  top: -273px;
+  left: 32%; }
