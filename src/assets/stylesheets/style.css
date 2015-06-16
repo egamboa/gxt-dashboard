@@ -995,8 +995,6 @@ a.pagination-item:hover {
     text-align: left;
     background-color: transparent; }
   .release table tr td, .release table tr th {
-    -webkit-transition: background-color 0.3s, height 0.5s, font-size 0.5s;
-    transition: background-color 0.3s, height 0.5s, font-size 0.5s;
     background-color: transparent;
     border-left: none;
     border-right: none;
@@ -1006,6 +1004,21 @@ a.pagination-item:hover {
     background-color: #e8eaec; }
   .release table tr:hover td, .release table tr:hover th, .release table tr:focus td, .release table tr:focus th, .release table tr:active td, .release table tr:active th {
     background-color: #a4aeb5; }
+  .release table .release-projects-btn {
+    background: url("../images/minus.png") no-repeat scroll 0 0 transparent;
+    background-size: 20px;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    border: none; }
+.release .btn-plus {
+  background-image: url("../images/plus.png") !important;
+  display: none; }
+.release .btn-minus {
+  background: url("../images/minus.png") !important; }
+.release .release-project {
+  display: none;
+  opacity: 0; }
 @media (max-width: 895px) {
   .release p {
     font-size: 16px; } }
@@ -1183,7 +1196,7 @@ a.pagination-item:hover {
     font-size: 20px; }
 
 .customStyle .slick-dots {
-  position: relative;
+  position: absolute;
   top: -50px;
   left: 46%;
   list-style-type: none;
@@ -1219,8 +1232,8 @@ a.pagination-item:hover {
   color: transparent;
   border: none;
   outline: none;
-  position: relative;
-  top: -273px;
+  position: absolute;
+  top: 0;
   left: 60%; }
 .customStyle .slick-prev {
   background: url("../images/left.png") no-repeat scroll 0 0 transparent;
@@ -1230,8 +1243,8 @@ a.pagination-item:hover {
   color: transparent;
   border: none;
   outline: none;
-  position: relative;
-  top: -273px;
+  position: absolute;
+  top: 0;
   left: 32%; }
 @media (max-width: 895px) {
   .customStyle .slick-next, .customStyle .slick-prev {

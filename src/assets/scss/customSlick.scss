@@ -1,6 +1,6 @@
 .customStyle{
 	.slick-dots{	
-		position: relative;
+		position: absolute;
 		top: -50px;
 		left: 46%; 	
 		list-style-type: none;
@@ -53,8 +53,8 @@
 		color: transparent;
 		border: none;
 		outline: none;
-		position: relative;
-		top: -273px;
+		position: absolute;
+		top: 0;
 		left: 60%;
 	}
 
@@ -66,8 +66,8 @@
 		color: transparent;
 		border: none;
 		outline: none;
-		position: relative;
-		top: -273px;
+		position: absolute;
+		top: 0;
 		left: 32%;
 	}
 

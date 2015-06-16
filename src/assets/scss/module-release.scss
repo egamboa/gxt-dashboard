@@ -15,8 +15,7 @@
 			}
 
 			td, th{
-				-webkit-transition: background-color 0.3s, height 0.5s, font-size 0.5s;
-				transition: background-color 0.3s, height 0.5s, font-size 0.5s;
+				
 				background-color: transparent;
 				border-left: none;
 				border-right: none;
@@ -36,6 +35,31 @@
 				background-color: #a4aeb5;	
 			}	
 		}
+
+		.release-projects-btn{
+			background: url("../images/minus.png") no-repeat scroll 0 0 transparent;
+			background-size: 20px;
+			outline: none;
+			width: 20px;
+			height: 20px;
+			border: none;
+		}
+
+	}
+
+	.btn-plus{
+		background-image: url("../images/plus.png")!important;
+		display: none;
+	}
+
+	.btn-minus{
+		background: url("../images/minus.png")!important;
+	}
+
+	.release-project{
+
+		display: none;
+		opacity: 0;
 	}
 
 	@media (max-width:895px) {
